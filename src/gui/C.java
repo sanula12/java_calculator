@@ -89,14 +89,10 @@ class Cal implements ActionListener {
         b13 = new Button("/");
         b14 = new Button("*");
         b15 = new Button("√");
-//        b16 = new Button("X");
         b17 = new Button(".");
         b18 = new Button("0");
         b19 = new Button("Clear");
         b20 = new Button("00");
-//        b21 = new Button("C");
-//        b22 = new Button("CE");
-//        b23 = new Button("AC");
         b24 = new Button("=");
 
         b1.setBackground(Color.LIGHT_GRAY);
@@ -114,14 +110,10 @@ class Cal implements ActionListener {
         b13.setBackground(Color.LIGHT_GRAY);
         b14.setBackground(Color.LIGHT_GRAY);
         b15.setBackground(Color.LIGHT_GRAY);
-//        b16.setBackground(Color.LIGHT_GRAY);
         b17.setBackground(Color.LIGHT_GRAY);
         b18.setBackground(Color.LIGHT_GRAY);
         b19.setBackground(Color.LIGHT_GRAY);
         b20.setBackground(Color.LIGHT_GRAY);
-//        b21.setBackground(Color.LIGHT_GRAY);
-//        b22.setBackground(Color.LIGHT_GRAY);
-//        b23.setBackground(Color.LIGHT_GRAY);
         b24.setBackground(Color.LIGHT_GRAY);
 
         b1.setFont(f1);
@@ -139,21 +131,12 @@ class Cal implements ActionListener {
         b13.setFont(f1);
         b14.setFont(f1);
         b15.setFont(f1);
-//        b16.setFont(f1);
         b17.setFont(f1);
         b18.setFont(f1);
         b19.setFont(f1);
-        b20.setFont(f1);
-//        b21.setFont(f1);
-//        b22.setFont(f1);
-//        b23.setFont(f1);    
+        b20.setFont(f1);    
         b24.setFont(f1);
 
-        
-//        p2.add(b23); 
-//       p2.add(b21);
-//        p2.add(b22);       
-//         p2.add(b16); 
          p2.add(b19);  
         p2.add(b12);
             p2.add(b15); 
@@ -193,14 +176,10 @@ class Cal implements ActionListener {
         b13.addActionListener(this);
         b14.addActionListener(this);
         b15.addActionListener(this);
-//        b16.addActionListener(this);
         b17.addActionListener(this);
         b18.addActionListener(this);
         b19.addActionListener(this);
         b20.addActionListener(this);
-//        b21.addActionListener(this);
-//        b22.addActionListener(this);
-//        b23.addActionListener(this);
         b24.addActionListener(this);
 
         f.add(p1, BorderLayout.NORTH);
